@@ -1,0 +1,4 @@
+git clone
+---------
+  This command is used to obtain a repository from an existing URL
+	$ git clone [url]

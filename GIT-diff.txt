@@ -1,0 +1,9 @@
+git diff
+--------
+This command shows the file differences which are not yet staged.
+This command shows the differences between the files in the staging area and the latest version present.
+
+	$git diff
+	$git diff <first-branch> <second-branch>
+
+	
