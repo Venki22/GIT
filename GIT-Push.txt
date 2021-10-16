@@ -1,0 +1,14 @@
+The git push command is used to upload local repository content to a remote repository
+
+$git push <alies-name> <branch-name>
+ git push origin master
+
+#To push the code in all brach
+ git push <alies-name> <branch-name-1> <branch=name-2> <branch-name3>..n
+
+ Note : Each brach name separated by space if we have n nubmer of branch we can use below command
+ 
+#To push the code in multiple branches at a time
+ $git push <alies-name> --all
+
+  git push origin --all
