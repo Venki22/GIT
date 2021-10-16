@@ -1,0 +1,34 @@
+#git log
+ Display the entire commit history using the default formatting. If the output takes up more than one  screen, you can use Space to scroll and q to exit.
+
+#git log -2
+ It will display most recent 2 commit ids
+
+#git log --pretty="" --name-only <<commit Id>>
+ It will display all the files which are committed in that particular commit
+
+#git log -author <name>
+ git log --author="<author name>" <file-name>
+ Note:This will display a full diff of all the changes author name ("John Smith") has made to the file  hello.py
+
+
+#git log -committer <name>
+
+#git log --before <date>
+ git log --before "2021-02-01"
+
+#git log --after <date>
+ 
+#date range
+#git log --after <"YYYY-MM-DD">  before <"YYYY-MM-DD">
+
+#git commit by x days ago
+ git log 2.days.ago
+
+
+#To view summary of changes to each commit
+#git log --stat
+
+#To view one line per commit
+
+#git log --oneline
