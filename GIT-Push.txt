@@ -10,4 +10,5 @@ $git push <alies-name> <branch-name>
  
 #To push the code in multiple branches at a time
  $git push <alies-name> --all
+
   git push origin --all
