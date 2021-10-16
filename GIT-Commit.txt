@@ -4,17 +4,23 @@ git commit
 	------------------------------------------------------------------------------
 	git commit -m "Commit Message"
 	
+	
 	#empty commit
 	------------
 	git commit -m "This is empty commit" --allow-empty
 
 	#Commiting at a specific date
 	-----------------------------
-	git commit -m "Commit Message" --date  yyyy-mm-dd
+	git commit -m "Commit Message" --date  YYYY-MM-DD
 	git commit -m "Commit Message" --date  yesterday
 	git commit -m "Commit Message" --date  '2 days ago'
 	git commit -m "Commit Message" --date  '3 days ago'
 
 
-	Commit the updated files directly,skipping the staging environment:
+	#Commit the updated files directly,skipping the staging environment:
+        --------------------------------------------------------------------
 	git commit -a -m "commit message"
+	
+	git commit -a -m "commit message" --date "YYYY-MM-DD"
+
+
