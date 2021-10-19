@@ -1,0 +1,62 @@
+Q) What is branch in Git?
+A) A branch is a repository represent an independent line of development
+
+Q) How to add file to .gitignore ?
+A) git config --global core.excludesFile ~/.gitignore
+
+Q) What is HEAD in git?
+A) HEAD is like pointer in git which always point to last commit ID of current checkout branch
+
+Q) What is git init do?
+A) git init will create a new git repository.It can also be used to convert local directory into git repository
+
+Q) What does git reset do?
+A) git reset command will move current branch HEAD to specific commit ID.
+
+Q) What is fork in git ?
+A) A fork is a copy of a repository
+
+Q) How to untrack a file without deletion ?
+A) git stash -u
+   
+Q) How to undo git commit ?
+A) git reset --hard HEAD~1
+
+Q) How many reference types are there in Git ?
+A) There are three reference types in Git:-
+   a) Branches
+   b) Remotes
+   c) Tags
+
+Q) What is the default folder of Tags Reference type in Git ?
+A) .git/refs/tags
+
+Q) What is the default folder of Remote Reference type in Git ?
+A) .git/refs/remotes
+
+Q) How to list only local branches?
+A) git branch
+
+Q) How to list only remote branches in git?
+A0 git branch -r
+
+Q) Which hashing techniques are used in Git to generate IDs ?
+A) SHA1 or SHA256
+
+Q) What is detached HEAD in git ?
+A) Detached HEAD basically means it is pointing to a Commit ID rather than any branch.
+
+Q) How to automatically resolve git merge conflicts ?
+A) git merge --strategy-option theirs or git merge --strategy-option ours
+
+Q) Is it possible to recover a deleted branch from local repository ?
+A) git checkout -b <recover-branch-name> <SHA-commit-id>
+
+Q) How to prune older reflog entries in git ?
+A) git reflog expire
+
+Q) How to List Commit objects in reverse chronological order ?
+A) using git rev-list command
+
+
+

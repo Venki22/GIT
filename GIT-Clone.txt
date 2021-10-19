@@ -2,3 +2,17 @@ git clone
 ---------
   This command is used to obtain a repository from an existing URL
 	$ git clone [url]
+
+  To download repository  and save it in a specific directory type
+        $ git clone <url> [folder_name]
+
+  Clone a specific branch
+        $ git clone --branch <branch-name> <url> [directory]
+
+  Clone recursivly
+        $ git clone <url> --recursive
+
+  Cloning to a specific tag
+	$ git clone --branch <tag> <repository>
+
+
