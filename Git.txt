@@ -1,0 +1,11 @@
+What is the difference between Git and SVN?
+
+SVN
+It is centralized version control system(CVCS) where back up copy will be placed in onlly one central repository.
+There is no branching strategy in SVN.You can't create branches.So no parallel development.
+There is no local repository.So can't save anything locallly. Every time after writing code you need to push that code to central repository immediately to save changes.
+
+Git:-
+It is Distributed version contral system where back up copy is available in everyone's machine's local repository as well as a central repository.
+We can create any no of branches as we want. So we can go in parallel development simultaneously.
+Every Git repositry will have its own local repository. So we can save changes locally.At the end of our work finally, we can push code to a central repository.
