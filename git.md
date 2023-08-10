@@ -1,5 +1,5 @@
-# Git Commands
-```
+# GIT Commands
+## List of commands
 - git status
 - git add <file-name>
 - git add .
@@ -36,4 +36,3 @@
 - git reset --hard <commit-id>
 - git commit -m "message"
 - git commit -am "message"
-```
