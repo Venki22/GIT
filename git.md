@@ -19,6 +19,16 @@
 - git checkout commit-id
 - git log --oneline
 - git log --oneline --graph --all
+- git log
+- git log -2
+- git log --after <"YYYY-MM-DD">  before <"YYYY-MM-DD">
+- git log --before "YYYY-MM-DD"
+- git log --after "YYYY-MM-DD"
+- git log --committer name
+- git log --author name
+- git log --author="author name" file-name
+- git log --stat
+- git log 2.days.ago
 - git fetch
 - git merge
 - git pull

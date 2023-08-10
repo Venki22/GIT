@@ -27,4 +27,5 @@ git log --stat
 ### To view one line per commit
 ```
 git log --oneline
+git log --oneline --graph --all
 ```
