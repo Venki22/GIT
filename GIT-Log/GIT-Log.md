@@ -16,7 +16,7 @@ git log --author="author name" file-name
 
 ### Commit by x days ago
 ```
-git log 2.days.ago
+git log --after 2.days.ago
 ```
 
 ### To view summary of changes to each commit
@@ -28,4 +28,11 @@ git log --stat
 ```
 git log --oneline
 git log --oneline --graph --all
+git log --graph
+git log --pretty=format:"Commit Hash: %H, Author: %aN, Date: %aD"
+```
+
+### View All Diff of Changes for Each Commit
+```
+git log -p 
 ```

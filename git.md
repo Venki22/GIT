@@ -20,6 +20,7 @@
 - git log --oneline
 - git log --oneline --graph --all
 - git log
+- git log --all
 - git log -2
 - git log --after <"YYYY-MM-DD">  before <"YYYY-MM-DD">
 - git log --before "YYYY-MM-DD"
@@ -28,7 +29,11 @@
 - git log --author name
 - git log --author="author name" file-name
 - git log --stat
-- git log 2.days.ago
+- git log --after 2.days.ago
+- git log --before 2.days.ago
+- git log --pretty=format:"Commit Hash: %H, Author: %aN, Date: %aD"
+- git log --graph
+- git log --graph --all
 - git fetch
 - git merge
 - git pull
