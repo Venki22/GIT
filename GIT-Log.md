@@ -1,7 +1,7 @@
-## GIT-log Commands
+## GIT-Log Commands
 # List of commmands 
-- Display the entire commit history using the default formatting. If the output takes up more than one  screen, you can use Space to scroll and q to exit.
-### date range
+### Display the entire commit history using the default formatting. If the output takes up more than one  screen, you can use Space to scroll and q to exit.
+### Date range
 ```
 - git log
 - git log -2
@@ -13,7 +13,7 @@
 - git log --author="author name" file-name
 ```
 
-### git commit by x days ago
+### Commit by x days ago
 ```
 - git log 2.days.ago
 ```
