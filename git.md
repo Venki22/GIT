@@ -27,6 +27,7 @@
 - git stash apply save
 - git stash apply stash@{0}
 - git stash drop stash@{0}
+- git stash pop
 - git clean -f -d
 - git clean -f
 - git revert commit-id
@@ -36,3 +37,5 @@
 - git reset --hard commit-id
 - git commit -m "message"
 - git commit -am "message"
+- git commit --amend
+
