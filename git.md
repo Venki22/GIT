@@ -1,22 +1,22 @@
 # GIT Commands
 ## List of commands
 - git status
-- git add <file-name>
+- git add file-name
 - git add .
 - git branch
 - git branch -v
-- git branch -d <branch-name>
-- git branch -D <branch-name>
-- git clone <url>
-- git clone -b <url>
-- git remote add origin <url>
+- git branch -d branch-name
+- git branch -D branch-name
+- git clone url
+- git clone -b url
+- git remote add origin url
 - git remote rm origin
-- git remote add my-origin <url>
+- git remote add my-origin url
 - git push
-- git merge <branch-name>
-- git checkout <branch-name>
-- git checkout -b <branch-name>
-- git checkout <commit-id>
+- git merge branch-name
+- git checkout branch-name
+- git checkout -b branch-name
+- git checkout commit-id
 - git log --oneline
 - git log --oneline --graph --all
 - git fetch
@@ -29,10 +29,10 @@
 - git stash drop stash@{0}
 - git clean -f -d
 - git clean -f
-- git revert <commit-id>
-- git revert -n <commit-id>
+- git revert commit-id
+- git revert -n commit-id
 - git revert --abort
-- git reset --soft <commit-id>
-- git reset --hard <commit-id>
+- git reset --soft commit-id
+- git reset --hard commit-id
 - git commit -m "message"
 - git commit -am "message"
