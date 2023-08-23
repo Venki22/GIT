@@ -36,3 +36,23 @@ git log --pretty=format:"Commit Hash: %H, Author: %aN, Date: %aD"
 ```
 git log -p 
 ```
+
+### This command shows the file differences which are not yet staged.
+### This command shows the differences between the files in the staging area and the latest version present.
+```
+git diff
+git diff first-branch second-branch
+
+git commit --amend
+git commit –-amend  -m "commit message"
+git reflog
+git reflog HEAD@{n}
+git reflog HEAD@{1.days.ago}
+git reflog HEAD@{2.weeks.ago}
+git reflog --pretty --oneline
+git diff HEAD@{3} HEAD@{6}
+git diff HEAD@{1.min.ago} HEAD@{2.weeks.ago}
+
+        
+
+
