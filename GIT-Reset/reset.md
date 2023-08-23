@@ -5,3 +5,4 @@ git reset commit-id
 git clean -f -d
 
 git reset --hard commit-id
+
