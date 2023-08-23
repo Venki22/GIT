@@ -1,5 +1,6 @@
 ### Checkout Commit
 git checkout commit-id
+
 git switch -
 
 ### Switch to master
